@@ -1,0 +1,60 @@
+/* 
+<h2>Computer Choice: <span id="computer-choice"></span></h2>
+<h2>Your Choice: <span id="user-choice"></span></h2>
+<h2>Result: <span id="result"></span></h2>
+
+<button id="rock">rock</button>
+<button id="paper">paper</button>
+<button id="scissor">scissor</button> */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whitesmoke;
+    padding: 50px;
+}
+div{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    width: 700px;
+    height: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 10px double black;
+
+    background-image: url(img/board.jpg)no-repeat;
+    background-size: cover;
+}
+button{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 20%;
+    margin-top: 10px;
+    height: 50px;
+    font-size: 20px;
+}
+#rock{
+    background-color: red;
+}
+#paper{
+    background-color: blue;
+}
+#scissor{
+    background-color: greenyellow;
+}
+h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
